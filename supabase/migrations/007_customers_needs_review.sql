@@ -1,0 +1,2 @@
+ALTER TABLE customers ADD COLUMN IF NOT EXISTS needs_review BOOLEAN DEFAULT false;
+ALTER TABLE customers ADD COLUMN IF NOT EXISTS review_reason TEXT;

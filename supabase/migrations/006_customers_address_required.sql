@@ -1,0 +1,2 @@
+ALTER TABLE customers DROP COLUMN IF EXISTS whatsapp;
+ALTER TABLE customers ALTER COLUMN address SET NOT NULL;
